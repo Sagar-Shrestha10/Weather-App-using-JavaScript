@@ -1,0 +1,111 @@
+body{
+    background-color:hsl(89, 41%, 48%) ;
+    font-family: Arial, Helvetica, sans-serif;
+    margin: 0;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+.weatherform{
+    margin: 20px;
+}
+
+.placeinput{
+    padding: 10px;
+    font-size: 2rem;
+    font-weight: bold;
+    border: 5px solid hsl(252, 82%, 30%);
+    border-radius: 15px;
+    margin: 10px;
+    width: 340px;
+}
+
+button[type="submit"]{
+    padding: 10px 20px;
+    font-size: 2rem;
+    font-weight: bold;
+    background-color: hsl(90, 100%, 50%);
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+}
+
+button[type="submit"]:hover{
+    background-color: hsl(90, 100%, 70%);
+}
+
+.box{
+    background: linear-gradient(180deg, blue,orange);
+    padding: 30px;
+    font-size: 2rem;
+    font-weight: bold;
+    border: 2px dashed hsl(0, 82%, 30%);
+    border-radius: 15px;
+    box-shadow: 2px 2px 5px black;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    min-width: 200px;
+}
+
+h1{
+    margin-top: 0px;
+    margin-bottom: 20px;
+}
+
+p{
+    font-size: 2rem;
+    margin: 5px 0px;
+}
+
+.displayCity, .displayTemp{
+    font-size: 4rem;
+    font-weight: bold;
+    margin-bottom: 30px;
+    color: rgb(0, 255, 8);
+}
+
+.displayHumidity{
+    font-size: 3rem;
+    font-weight: bold;
+    font-style: italic;
+}
+
+.displayDesc{
+    font-size: 3rem;
+    font-weight: bold;
+    font-style: italic;
+}
+
+.Emoji{
+    margin: 0;
+    font-size: 6rem;
+}
+
+.displayErr{
+    font-weight: bold;
+    font-size: 3rem;
+    color: rgb(255, 0, 0);
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
