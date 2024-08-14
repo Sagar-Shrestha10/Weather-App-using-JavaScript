@@ -50,7 +50,7 @@ function displayInfo(data){
             const Emoji = document.createElement("p");
 
             displayCity.textContent = city;
-            displayTemp.textContent = `${((temp - 273.15) * 9/5 + 32).toFixed(1)}°F`;
+            displayTemp.textContent = `${(temp - 273.15).toFixed(1)}°C`;
             displayHumidity.textContent = `Humidity: ${humidity}%`;
             displayDesc.textContent = description;
             Emoji.textContent = getEmoji(id);
